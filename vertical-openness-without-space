@@ -1,0 +1,19 @@
+class GeoDetail {    
+    private var placeName: String = ""
+    private var latitude: Double = 0.0
+    private var longitude: Double = 0.0
+    private var timezoneId: String = ""
+    private var countryCode: String = ""
+    init(name: String, lat: Double, lng: Double, timeZone: String) {
+        self.placeName = name
+        self.latitude = lat
+        self.longitude = lng
+        self.timezoneId = timeZone
+    }
+    override init() {
+        super.init()
+    }
+    updateCountryCode(code:String){
+        self.countryCode = code
+    }
+}
