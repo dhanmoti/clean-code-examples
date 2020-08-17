@@ -1,3 +1,6 @@
+/*
+* This code showcase how not having blank lines between each thought affect readability 
+*/
 class GeoDetail {    
     private var placeName: String = ""
     private var latitude: Double = 0.0
